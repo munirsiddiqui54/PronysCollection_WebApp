@@ -1,0 +1,144 @@
+*{
+    font-family: Montserrat;
+    
+    
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none;
+color:aliceblue;
+}
+.banner-box{
+    height: 1200px;
+}
+
+
+a:active { text-decoration: none; }
+
+.blue-shade-3{
+    color:#1877F2;
+}
+.blue-shade-1{
+    color:#99FFFF;
+}
+.blue-shade-2{
+    color:#4169E1;
+}
+.paras{
+    font-size: 0.7rem;
+    margin: 1px;
+}
+.price{
+    font-size: 2rem;
+    margin: 1px;
+}
+
+.images{
+    height:300px;
+}
+header nav{
+    background-color: #557a98;
+}
+
+.Ctitle{
+    padding: 10px;
+}
+
+header p:hover{
+    background-color: white;
+    color: black;
+}
+.font-1{
+    font-family: 'Playfair', serif;
+}
+.outline{
+    border:2px solid rgb(12, 236, 12);
+    color: rgb(12, 236, 12);
+}
+.abstext{
+    position: relative;
+    /* left: 350px; */
+}
+.outline-2:hover{
+    border:2px solid rgb(58, 33, 168);
+    background-color: rgba(243, 243, 247, 0.921);
+    color: rgb(58, 33, 168);
+    font-weight: 20px;
+}
+.outline-3{
+    
+    border:2px solid #cd715a;
+    background-color: white;
+    color:#cd715a;
+    width: 40%;
+}
+.outline-3:hover{
+    
+    border:2px solid pink;
+    background-color: #cd715a;
+    color:white;
+}
+
+.outline:hover{
+    border:2px solid rgb(12, 236, 12);
+    background-color: rgb(9, 167, 9);
+    color: white;
+}
+#banner,#banner-2,#contact-banner{
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.outline-2{
+    border:2px solid rgb(152, 152, 247);
+    /* color: rgb(23, 3, 108); */
+    color: white;
+    background-color:  rgb(58, 33, 168);
+}
+#aboutpage ,#contactpage{
+    display: none;
+}
+
+header nav{
+    background-color: #3a454e;
+}
+ header a:hover{
+    color: black;
+    background-color:rgb(160, 159, 159);
+    /* color: black; */
+    border: 2px;
+    border-radius: 25px;
+}
+.trending{
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(142 67 56);
+    color: white;
+    border: 2px solid black;
+    /* border-radius: 25px; */
+}
+header a:active{
+    border: 2px;
+    border-radius: 25px;
+    color: black;
+
+}
+header, .nav-link{
+    color:white;
+}
+.text{
+    color: white;
+}
+.font-2{
+    font-family: 'Aoboshi One', serif;
+    font-weight:30;
+}
+
+
+/* header a:visited{
+    color: black;
+} */
