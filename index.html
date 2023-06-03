@@ -10,11 +10,12 @@
   <!-- <link rel="stylesheet" href="vendor/animate/animate.css"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Montserrat:wght@500&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -52,7 +53,8 @@
 </head>
 
 <body>
-  <h1>Hello World</h1>
+
+  <!-- Header  -->
   <div class="d-flex justify-content-center align-item-center">
     <p class="text-center m-0">For customizations or personal assistance, WhatsApp us at </p>
     <p class="m-0" style="color: red;">9699473589</p>
@@ -65,20 +67,21 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
       </div>
-       <img src="Photos/My project-1 (6).png" alt="" width="45px">
+      <img src="Photos/My project-1 (6).png" alt="" width="45px">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- <span class="navbar-toggler-icon"></span> -->
       </button>
 
       <div class="collapse navbar-collapse ms-5 justify-content-between d-flex" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link px-3" href="#"  id="home">Home</a>
+            <a class="nav-link px-3" href="#" id="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link px-3" href="#" id="catorgories">Catogories</a>
-          </li>
+          
+
+          <a class="nav-link px-3" href="#catogoriespage"  id="catorgories" >Catogories</a>
+        </li>
           <li class="nav-item">
             <a class="nav-link px-3" href="#" id="About">About</a>
           </li>
@@ -97,31 +100,7 @@
       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-cart"></i></a>
 
     </nav>
-    <!-- #055B62 -->
   </header>
-  
-
- <!-- <div id="banner-2" class="container-fluid justify-content-between my-4 p-0" style="background-color: white;align-items: center;">
-  <img src="Photos/banner-4" style="height: 400px;" alt="">
-  <div class="d-flex flex-column m-3 justify-content-center" style="align-items: center;">
-  <h6 class="text-center m-0 font-2 " style="font-size:40px;  ">Boast Your Style </h6><h6  class="text-center m-0 font-2 " style="font-size:40px; ">with Pernia.</h6>
-  <p class="font-2 text-dark" style="font-size: 20px;">Prony's</p>
-  </div>
-  <img src="Photos/banner-3" style="height: 400px" alt="">
- </div> -->
-
-
-
-
-  <section class="container-fluid p-0 bg-light" id="homepage">
-   <!-- main-home-page -->
-   <!-- background: linear-gradient(45deg, #bdbdbd,#a31500) -->
-  
-
-
-
-
- <!-- Three Cards and 1 Banner for HomePage -->
 
 
 
@@ -133,24 +112,126 @@
 
 
 
+  <!-- categories and home page  -->
+  <section id="homepage">
+    <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class=" container-fluid p-5" id="bg-03" >
+<h6 class=" my-2 mx-4" style="font-size:1.5rem;">TOP SALE THIS SUMMER </h6>
+<h2 class="mt-4 mx-4 font-2" style="font-size:3rem;">ALL ABOUT</h2>
+<h2 class="my-2 mx-4 font-2" style="font-size:3rem;">FASHION</h2>
+<p style="width: 40%;" class="mx-4">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<button class="btn p-2 btn2 my-2 mx-4 " onClick="document.getElementById('catogoriespage').scrollIntoView();" >Shop Now</button>
 
 
-
-
+    </div>
+    
   </section>
   <main id="catogoriespage" class="container">
     <div class="row my-5">
-      <div class="m-0 trending rounded"><h2 class="m-0 p-3" style="width:100%;font-family: 'Aoboshi One', serif;">OUR TRENDING COLLECTION</h2></div>
-      <div class=" my-3 rounded col">
-       
+      <div class="m-0 trending rounded">
+        <h2 class="m-0 p-3" style="width:100%;font-family: 'Aoboshi One', serif;">OUR TRENDING COLLECTION</h2>
+      </div>
+      <div class=" my-3 rounded col" style="">
+        <h3 class="my-5 mx-4 mb-3">CATEGORY</h3>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            T-shirts  
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(345)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            Traditional 
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(145)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            Skirts
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(55)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            Summer Wear
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(350)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            Hoodie
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(299)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            Indian
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(267)</p>
+        </div>
+        <h3 class="my-5 mx-4 mb-3">SIZES</h3>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            XL  
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(145)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            M 
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(445)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            S
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(399)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+            L 
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(255)</p>
+        </div>
+        <div class=" m-3">
+          <input class="p-2 form-check-input" type="checkbox" value="" id="">
+          <label style="font-size: 19px;" class="ms-2 form-check-label" for="flexCheckDefault">
+           XXL
+          </label>
+          <p style="display: inline;font-size: 14px;color: #323b43;">(45)</p>
+        </div>
+        <h3 class="my-5  mx-4 mb-3">COLOR</h3>
+        <div class="rounded container  m-2 p-3" style=" width:250px;border: 1px solid gray;">
+          <div class="row">
+
+         <div class="rounded col-2 m-1 p-3" style="border: 1px solid; background-color: blue;"></div>
+         <div class="rounded col-2 m-1 p-3" style="border: 1px solid; background-color: pink;"></div>
+         <div class="rounded col-2 m-1 p-3" style=" border: 1px solid; background-color: green;"></div>
+         <div class="rounded col-2 m-1 p-3" style="background-color: red"></div>
+         <div class="rounded col-2 m-1 p-3" style="background-color: black"></div>
+         <div class="rounded col-2 m-1 p-3" style="border: 1px solid; background-color: white"></div>
+         <div class="rounded col-2 m-1 p-3" style="border: 1px solid; background-color: lightcoral"></div>
+        </div>
+        </div>
+        
 
       </div>
       <div class="m-1 col-9 ">
 
-        
+
         <div class="row">
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/indian-1.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/indian-1.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -169,8 +250,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/indian-3" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/indian-3" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-te p-3xt paras">Red Banarsi Silk & Organza silk</p>
@@ -179,8 +260,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/indian-4" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/indian-4" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-te p-3xt paras">Red Banarsi Silk & Organza silk</p>
@@ -191,8 +272,8 @@
           </div>
 
 
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-1.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-1.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -201,8 +282,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-4.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-4.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -211,8 +292,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-3.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-3.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -221,8 +302,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2  Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/indian-5" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2  Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/indian-5" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -234,8 +315,8 @@
           <div class="pb-4"><img src="Photos/Banner.avif" alt="" style="width:100%; height: 300px;"></div>
 
 
-          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-5.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-5.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -244,8 +325,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-6.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-6.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -254,8 +335,8 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-7.jpg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-7.jpg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
@@ -264,78 +345,118 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images" style="width:95%"
-              src="Photos/image-8.jpeg" alt="Card image cap">
+          <div class="col-md-4 col-lg-3 px-2 p-0 Ctitle" class="card" style=""><img class="card-img-top images"
+              style="width:95%" src="Photos/image-8.jpeg" alt="Card image cap">
             <div class="card-body p-3">
               <h5 class="card-title">Punit Balana</h5>
               <p class="card-text paras">Red Banarsi Silk & Organza silk</p>
               <p class="price font-2"> &#8377; 1522 </p>
               <div class="detail"></div>
             </div>
-
           </div>
         </div>
-
       </div>
-
-    </div>
-
-
+</div>
   </main>
+ 
+
+
+
+
+
+
+
+
+
+
+  <!-- Contact page  -->
+
 
   <section class="container bg-light" id="contactpage">
     <h3 class="m-2 mt-5" style="color: #323b43;">
       Connect with Us
     </h3>
-    
+
 
     <div class="container my-5 py-4 " id="contact-banner">
       <div class="row">
         <div class=" m-3 col-4 d-flex flex-column" style="border-right: 1px solid #323b43;">
-<div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
-<h3><i style="color: rgb(2, 2, 105);" class="bi bi-geo-alt-fill"></i></h3>
-<h4 class="" style="font-size: 25px;">Address</h4>
-<p class="m-0"style="font-size: 13px; color:#323b43;">LJ Road,</p>
-<p class="m-0" style="font-size: 13px; color: #323b43;;">Fort, Mumbai-400023</p>
-</div>
-<div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
-  <h3><i  style="color: rgb(2, 2, 105);"  class="bi bi-telephone"></i></h3>
-  <h4 class="" style="font-size: 25px;">Phone</h4>
-  <p class="m-0"style="font-size: 13px; color:#323b43;">+91 9654254168</p>
-  <p class="m-0" style="font-size: 13px; color: #323b43;;">+91 9884571265</p>
-  </div>
-  <div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
-    <h3><i  style="color: rgb(2, 2, 105);"  class="bi bi-envelope"></i></h3>
-    <h4 class="" style="font-size: 25px;">E-mail</h4>
-    <p class="m-0"style="font-size: 13px; color:#323b43;">labcoding@gmail.com</p>
-    <p class="m-0" style="font-size: 13px; color: #323b43;;">coding@gmail.com</p>
-    </div>
-  </div>
-  <div class="col-7 m-4">
-    <h3 class="m-2 font-1" style="font-size: 30px;color:  rgb(2, 2, 105);;" >Send us a Message </h3>
-    <h6>We would love to respond to your queries and help you succeed.
+          <div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
+            <h3><i style="color: rgb(2, 2, 105);" class="bi bi-geo-alt-fill"></i></h3>
+            <h4 class="" style="font-size: 25px;">Address</h4>
+            <p class="m-0" style="font-size: 13px; color:#323b43;">LJ Road,</p>
+            <p class="m-0" style="font-size: 13px; color: #323b43;;">Fort, Mumbai-400023</p>
+          </div>
+          <div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
+            <h3><i style="color: rgb(2, 2, 105);" class="bi bi-telephone"></i></h3>
+            <h4 class="" style="font-size: 25px;">Phone</h4>
+            <p class="m-0" style="font-size: 13px; color:#323b43;">+91 9654254168</p>
+            <p class="m-0" style="font-size: 13px; color: #323b43;;">+91 9884571265</p>
+          </div>
+          <div class="d-flex m-3 flex-column justify-content-center " style="align-items: center;">
+            <h3><i style="color: rgb(2, 2, 105);" class="bi bi-envelope"></i></h3>
+            <h4 class="" style="font-size: 25px;">E-mail</h4>
+            <p class="m-0" style="font-size: 13px; color:#323b43;">labcoding@gmail.com</p>
+            <p class="m-0" style="font-size: 13px; color: #323b43;;">coding@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-7 m-4">
+          <h3 class="m-2 font-1" style="font-size: 30px;color:  rgb(2, 2, 105);;">Send us a Message </h3>
+          <h6>We would love to respond to your queries and help you succeed.
 
-      Feel free to get in touch.</h6>
-      <input type="text" class="rounded m-4 p-2" placeholder="Enter Your Name" style="width: 90%; border: 2px solid #5a6772;;">
-      <input type="text" class="rounded mx-4 p-2" placeholder="enter Your Email " style="width: 90%; border: 2px solid #5a6772;;">
-      <textarea class="m-4 p-2" placeholder="Enter your Address" name="address" id="address" cols="" rows="4" style="width: 90%; border: 2px solid #5a6772;"></textarea>
-      <button class="btn outline-2 ">Send Now</button>
-    </div>
-    </div>
+            Feel free to get in touch.</h6>
+          <input type="text" class="rounded m-4 p-2" placeholder="Enter Your Name"
+            style="width: 90%; border: 2px solid #5a6772;;">
+          <input type="text" class="rounded mx-4 p-2" placeholder="enter Your Email "
+            style="width: 90%; border: 2px solid #5a6772;;">
+          <textarea class="m-4 p-2" placeholder="Enter your Address" name="address" id="address" cols="" rows="4"
+            style="width: 90%; border: 2px solid #5a6772;"></textarea>
+          <button class="btn outline-2 ">Send Now</button>
+        </div>
+      </div>
   </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- About page  -->
 
   <section class=" bg-light" id="aboutpage">
     <div id="about-02" class="container my-3" style="width: 50%;position: relative;">
       <img src="Photos/image-15.jpeg" width="50%" alt="">
-      <div class="d-flex flex-column " style=" position: absolute;align-items: flex-end;top:80px ;right: 160px;width: 40%;">
-      <h1 class="font-1 text-center">Boast Your Style </h1>
-      <h1 class="font-1 text-center">with Prony's </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quod beatae ratione ad possimus corrupti incidunt eius in at ut, laboriosam perspiciatis nisi esse velit tenetur reiciendis eaque repellendus veritatis!</elit></p>
-      <button class="btn outline-3 ">Shop Now</button>
+      <div class="d-flex flex-column "
+        style=" position: absolute;align-items: flex-end;top:80px ;right: 160px;width: 40%;">
+        <h1 class="font-1 text-center">Boast Your Style </h1>
+        <h1 class="font-1 text-center">with Prony's </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Cumque quod beatae ratione ad possimus corrupti incidunt eius in at ut, laboriosam perspiciatis nisi esse
+          velit tenetur reiciendis eaque repellendus veritatis!</elit>
+        </p>
+        <button class="btn outline-3 " onclick="shopNowWasClicked()">Shop Now</button>
+      </div>
     </div>
-     </div>
-    
+
   </section>
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Extra Footer for Category Section  -->
+
   <div class="extra container-fluid p-0 mt-5 mb-3 ">
     <img style="width:100%;" src="Photos/lehnga-banner" alt="">
   </div>
@@ -406,22 +527,22 @@
     </div>
   </div>
 
-  <div id="banner" class=" d-flex  align-item-center justify-content-center" style="margin-bottom: 90px; margin-top: 90px; width:min-content;margin-left: auto;margin-right: auto;">
+
+
+  <!-- Footer Banner  -->
+
+  <div id="banner" class=" d-flex  align-item-center justify-content-center"
+    style="margin-bottom: 90px; margin-top: 90px; width:min-content;margin-left: auto;margin-right: auto;">
     <img src="Photos/Bannerr-2" style="height: 300px;" alt="">
     <div class="d-flex p-3 font-2 bg-light align-item-center justify-content-center flex-column">
       <h3 class="font-2">This Summer</h3>
       <h2 class="font-2 text-center" style="color: #a10a0b">SALE</h2>
       <p class="text-center"> upto 70% Off</p>
-      <button class="btn px-0 outline-2">Check Out</button>
+      <button class="btn px-0 outline-2" onClick="shopNowWasClicked()">Check Out</button>
     </div>
-      <img style="height: 300px;" src="Photos/Banner-2b.avif" alt="">
-    
+    <img style="height: 300px;" src="Photos/Banner-2b.avif" alt="">
+
   </div>
-  <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-  </script>
 
 
 
@@ -432,7 +553,6 @@
 
 
 
-<!-- footer banner with button here -->
 
 
 
@@ -440,10 +560,10 @@
 
 
 
-
+<!-- fOOTER  -->
 
   <!-- <h1 class="animate__animated animate__fadeInUp">Building Your <span class="color1">Dreams</span></h1> -->
-  <footer class="text-center text-lg-start bg-dark py-1  text-muted">
+  <footer id="footer" class="text-center text-lg-start bg-dark py-1  text-muted">
 
     <section class="">
       <div class="container text-center text-md-start mt-5">
@@ -550,118 +670,163 @@
 
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">xyz.com</a>
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">munirSiddiqui54.com</a>
       </div>
     </footer>
-    <!-- Footer -->
+    
+
+
+
+
+
+
+
+
+
+
+
+     <!-- jAVASCRIPT  -->
     <script>
-     
-        const homepage = document.getElementById("homepage");
-        const catogoriespage = document.getElementById("catogoriespage");
-        const aboutpage = document.getElementById("aboutpage");
-        const contactpage = document.getElementById("contactpage");
-        const extra =document.getElementsByClassName("extra");
-        const banner2=document.getElementById("banner-2");
-        const about02=document.getElementById("about-02");
-        about02.style.display="none";
-        // banner2.style.display="none";
-        // console.log(banner2.style.display);
 
-        let home = document.getElementById("home");
-        let Contact = document.getElementById("Contact");
-        let About = document.getElementById("About");
-        let catorgories = document.getElementById("catorgories");
 
-        let navItems= document.getElementsByClassName("nav-link");
-        let colo=navItems[0].style.backgroundColor;
-        // home.style.color="black";
-        // home.style.backgroundColor="white";
-        // home.style="border-radius:25px";
+      const homepage = document.getElementById("homepage");
+      const catogoriespage = document.getElementById("catogoriespage");
+      const aboutpage = document.getElementById("aboutpage");
+      const contactpage = document.getElementById("contactpage");
+      const extra = document.getElementsByClassName("extra");
+      const banner2 = document.getElementById("banner-2");
+      const about02 = document.getElementById("about-02");
+      about02.style.display = "none";
+      // banner2.style.display="none";
+      // console.log(banner2.style.display);
 
-        let active=home;
-        
-        home.style="border-radius:25px;border:2px;";
-        home.style.backgroundColor="white";
-        home.style.color="black";
-        
-      home.addEventListener('click', function (e) {
-        
-        homepage.style.display = "block";
-        catogoriespage.style.display = "block";
-        contactpage.style.display = "none";
-        about02.style.display="none";
-        aboutpage.style.display = "none";
-        extra[0].style.display="block";
-        // console.log(banner2);
-        // banner2.style.display="none";
-        extra[1].style.display="block";
-        active=home;
-        goActive();
-        // console.log(e.target.id);
-      })
+      let home = document.getElementById("home");
+      let Contact = document.getElementById("Contact");
+      let About = document.getElementById("About");
+      let catorgories = document.getElementById("catorgories");
 
-      
+      let navItems = document.getElementsByClassName("nav-link");
+      let colo = navItems[0].style.backgroundColor;
+      // home.style.color="black";
+      // home.style.backgroundColor="white";
+      // home.style="border-radius:25px";
+
+      let active = home;
+
+      home.style = "border-radius:25px;border:2px;";
+      home.style.backgroundColor = "white";
+      home.style.color = "black";
+
+      home.addEventListener('click',   function homie() {
+        console.log("entered function")
+
+homepage.style.display = "block";
+catogoriespage.style.display = "block";
+contactpage.style.display = "none";
+about02.style.display = "none";
+aboutpage.style.display = "none";
+extra[0].style.display = "block";
+// console.log(banner2);
+// banner2.style.display="none";
+extra[1].style.display = "block";
+active = home;
+goActive();
+console.log("exit function");
+});
+function homie() {
+        console.log("entered function")
+
+homepage.style.display = "block";
+catogoriespage.style.display = "block";
+contactpage.style.display = "none";
+about02.style.display = "none";
+aboutpage.style.display = "none";
+extra[0].style.display = "block";
+// console.log(banner2);
+// banner2.style.display="none";
+extra[1].style.display = "block";
+active = home;
+goActive();
+console.log("exit function");
+}
+
+    
+      // function gofunction(){
+      //   console.log("gofunction entered ");
+      //   catogoriespage.scrollIntoView();
+      //   console.log("exit");
+      // }
+
+
       Contact.addEventListener('click', function (e) {
-        
+
         homepage.style.display = "none";
         catogoriespage.style.display = "none";
-        about02.style.display="none";
+        about02.style.display = "none";
         contactpage.style.display = "block";
         // banner2.style.display="none";
         aboutpage.style.display = "none";
-        active=Contact;
-        extra[0].style.display="none";
-        extra[1].style.display="none";
+        active = Contact;
+        extra[0].style.display = "none";
+        extra[1].style.display = "none";
         console.log(extra);
 
         goActive();
         // console.log(e.target.id);
       })
 
-      
+
       About.addEventListener('click', function (e) {
-        
+
         homepage.style.display = "none";
         catogoriespage.style.display = "none";
         contactpage.style.display = "none";
-        about02.style.display="block";
+        about02.style.display = "block";
         // banner2.style.display="flex";
         aboutpage.style.display = "block";
-        extra[0].style.display="none";
-        extra[1].style.display="none";
+        extra[0].style.display = "none";
+        extra[1].style.display = "none";
 
-        active=About;
+        active = About;
         goActive();
         // console.log(e.target.id);
       })
+      function shopNowWasClicked(){
+      homie();
+      catogoriespage.scrollIntoView(true);
+      console.log("showpNow was completed ")
+     }
 
-      
+
       catorgories.addEventListener('click', function (e) {
-        homepage.style.display = "none";
-        catogoriespage.style.display = "block";
-        contactpage.style.display = "none";
-        aboutpage.style.display = "none";
-        about02.style.display="none";
-        // banner2.style.display="none";
-        extra[0].style.display="block";
-        extra[1].style.display="block";
-        active=catorgories;
+       
+        homie();
+        active = catorgories;
         goActive();
-        // console.log(e.target.id);
+        
+
       })
-      function goActive(){
-        for(let i=0;i<navItems.length;i++){
-          navItems[i].style.color="white";
-        navItems[i].style.backgroundColor=colo;
+
+      function goActive() {
+        for (let i = 0; i < navItems.length; i++) {
+          navItems[i].style.color = "white";
+          navItems[i].style.backgroundColor = colo;
         }
         // console.log(navItems);
         // console.log(active);
-        active.style.color="black";
-        active.style.backgroundColor="white";
-        active.style.borderRadius="25px"
+        active.style.color = "black";
+        active.style.backgroundColor = "white";
+        active.style.borderRadius = "25px"
       }
-      
 
+  
+
+
+    </script>
+    <script>
+          function myFunction(x) {
+      x.classList.toggle("change");
+    }
     </script>
 
 </body>
