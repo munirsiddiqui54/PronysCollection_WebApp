@@ -40,9 +40,9 @@ a:active { text-decoration: none; }
 .images{
     height:300px;
 }
-header nav{
+/* header nav{
     background-color: #557a98;
-}
+} */
 
 .Ctitle{
     padding: 10px;
@@ -83,6 +83,34 @@ header p:hover{
     color:white;
 }
 
+.btn2{
+    
+    border:3px solid #7a2c34;
+    background-color: #91928d;
+    color:#68161e;
+    font-weight: 20px;
+    width:10%;
+}
+.btn2:hover{
+    
+    border:3px solid #68161e;
+    background-color: #68161e;
+    color:white;
+
+}
+#bg-03{
+    background-image: url("Photos/bg-03.jpg_large");
+    background-repeat: no-repeat;
+    
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
 .outline:hover{
     border:2px solid rgb(12, 236, 12);
     background-color: rgb(9, 167, 9);
@@ -116,7 +144,7 @@ header nav{
     text-align: center;
     align-items: center;
     padding: 0px;
-    background-color: rgb(142 67 56);
+    background-color:  #68161e;
     color: white;
     border: 2px solid black;
     /* border-radius: 25px; */
